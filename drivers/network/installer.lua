@@ -1,5 +1,5 @@
-local files = {"config_manager.lua", "driver.lua", "init.lua"}
-local base_url = "https://raw.githubusercontent.com/MrMindels/cc-tweaked-drivers/refs/heads/main/drivers/network/"
+files = {"config_manager.lua", "driver.lua", "init.lua"}
+base_url = "https://raw.githubusercontent.com/MrMindels/cc-tweaked-drivers/refs/heads/main/drivers/network/"
 
 
 for file_name in files do
