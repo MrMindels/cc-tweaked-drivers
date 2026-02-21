@@ -1,0 +1,2 @@
+network-name=undefined
+protocol=mqtt
