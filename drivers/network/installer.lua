@@ -2,7 +2,7 @@ files = {"config_manager.lua", "driver.lua", "init.lua"}
 base_url = "https://raw.githubusercontent.com/MrMindels/cc-tweaked-drivers/refs/heads/main/drivers/network/"
 
 
-for file_name in files do
+for _, file_name in ipairs(files) do
     local url = base_url .. file_name
 
     local response, err = http.get(url)
